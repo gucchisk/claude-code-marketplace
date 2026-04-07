@@ -1,0 +1,5 @@
+{
+  "name": "commit-plugin",
+  "description": "git commit with conventional commit message",
+  "version": "0.1.0"
+}

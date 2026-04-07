@@ -1,0 +1,13 @@
+{
+  "name": "gucchisk-plugin-marketplace",
+  "owner": {
+    "name": "gucchisk"
+  },
+  "plugins": [
+    {
+      "name": "git-plugin",
+      "description": "A marketplace for plugins created by gucchisk.",
+      "source": "./plugins/git"
+    }
+  ]
+}
