@@ -1,6 +1,6 @@
 ---
 name: commit
-description: 現在のプロジェクトの差分からコミットコメントを考えてください。コミットコメントはconventional commitsを参考にしてください。そのコメントでコミットしてください。コミット前に確認をお願いします
+description: gitにコミットする場合のコメントを作成する
 ---
 
 # Commit
@@ -10,9 +10,7 @@ description: 現在のプロジェクトの差分からコミットコメント�
 ## ワークフロー
 
 1. `git diff` と `git diff --cached` で変更内容を確認する
-2. 変更内容を分析し、Conventional Commitsの形式でコミットのタイトルを作成する（タイトル以外のコメントは必要ありません）
-3. コミットタイトルをユーザーに提示して確認を取る
-4. 承認後、コミットを実行する
+2. 変更内容を分析し、Conventional Commitsの形式でコミットのタイトルを作成してコミット（タイトル以外のコメントは必要ありません）
 
 ## Conventional Commits 形式
 
