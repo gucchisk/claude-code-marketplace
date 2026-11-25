@@ -6,8 +6,13 @@
   "plugins": [
     {
       "name": "git-plugin",
-      "description": "A marketplace for plugins created by gucchisk.",
+      "description": "plugin for git",
       "source": "./plugins/git"
+    },
+    {
+      "name": "gucchisk-plugin",
+      "description": "gucchisk's agent coding plugin",
+      "source": "./plugins/gucchisk"
     }
   ]
 }
